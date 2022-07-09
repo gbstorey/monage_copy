@@ -7,7 +7,7 @@
  position: absolute;
  width: 50em;
  right:222px;
- top:0px;
+ top:100px;
 }
 
 .intro-text {
@@ -16,8 +16,19 @@
  padding:200px 0 100px 10%;
 }
 
-h1, h2 {
- font-family: 'Ubuntu', sans-serif;
+h1, h2, h3 {
+ font-family: 'Work Sans', sans-serif;;
+}
+
+.btn-text {
+ font-weight:700;
+ font-size: 1.1em;
+}
+
+.about-btn-text {
+ font-weight: 700;
+ font-size: 1.1em;
+ color: #575e77;
 }
 
 .title {
@@ -28,12 +39,48 @@ h1, h2 {
 
 .subtitle {
  font-weight: 300;
+ padding-bottom:40px;
 }
 
 .highlighted {
  font-weight:500;
 }
 
+.btn {
+ border-radius: 0px;
+ border: none;
+ margin-right: 20px;
+ width:10em;
+}
+
+.about-btn {
+ border-radius: 0px;
+ border: none;
+ margin-right: 20px;
+ width:10em;
+ background-color: #d3d9ec;
+}
+
+.get-started {
+ background-color: #b79367;
+}
+
+.logos {
+ margin-top: 70px;
+}
+
+.visa-logo {
+ height:35px;
+}
+
+.paypal-logo {
+ height: 45px;
+ margin: 0 40px 0 50px;
+}
+
+.bitcoin-logo {
+ height: 45px;
+}
 
 .floating { 
  animation-name: floating;
